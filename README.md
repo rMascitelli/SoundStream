@@ -8,3 +8,7 @@ Dec 1
 Dec 3
 - Adding basic nodeJS server functionality to serve .wav files from local storage, just using nodeJS and expressJS
 - .wav files will simply be stuffed into the HTTP response
+
+Dec 6
+- Created a basic exmaple of connecting + downloading from Amazon S3 bucket
+- Spent some time making Git Bash terminal more convenient
