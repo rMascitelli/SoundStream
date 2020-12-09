@@ -1,14 +1,9 @@
-# Master Branch - README (Changelog, for now)
+# Master Branch - SoundStream 
 
-Dec 1 
-- Made a basic "Music Player" program that has some local .wav files stored.
-- Uses STL thread, mutex, and queue for control
-- Currently only supports Play, Stop and List commands
+A simple app for streaming music. For now, royalty-free WAVs are being used. 
 
-Dec 3
-- Adding basic nodeJS server functionality to serve .wav files from local storage, just using nodeJS and expressJS
-- .wav files will simply be stuffed into the HTTP response
+Sprints for this project:
 
-Dec 6
-- Created a basic exmaple of connecting + downloading from Amazon S3 bucket
-- Spent some time making Git Bash terminal more convenient
+1) Finish download-based model first 
+2) Convert back-end to use Golang and Nginx to allow RTMP streaming
+3) Convert monolithic app to microservice model using Kubernetes (for scalability)
